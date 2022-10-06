@@ -1,6 +1,9 @@
-import { fontSize } from "@mui/system";
-import React, { Component } from "react";
+
+
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "../Instagram/styles.css"
 import vino1 from "../../img/vino01.jpg"
 import vino2 from "../../img/vino02.jpg"
 import vino3 from "../../img/vino03.jpg"
@@ -19,31 +22,57 @@ const Instagram = () => {
   const imagenes = [
     vino1,vino2,vino3,vino4,vino5,vino6,vino7,vino8,vino9,vino10
   ]
+ 
     const settings = {
       autoplay: true,
       autoplaySpeed: 2000,
-      dots: true,
+      dots: true, 
       infinite: true,
+      arrows: false,
       speed: 1000,
-      slidesToShow: 5,
-      slidesToScroll: 2
+      slidesToShow:  5,
+      slidesToScroll: 2,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            
+          }
+        }
+      ]
     };
+
     return (
       <div>
-        <h2 style={{
-          display: "flex",
-          justifyContent: "center"
-        }}> Seguinos en nuestro Instagram como <span id="span">@QueseriaSinUnVino</span> </h2>
+        <h3 > Seguinos en nuestro Instagram como:</h3>
+         <a href="https://www.instagram.com/">  @QueseriaSinUnVino</a> 
+        
         <Slider {...settings}>
           
-          {imagenes.map(img => (<div>
-            <img style={{
-              minWidth: "200px",
-              height: "200px",
-              objectFit: "cover"
-              
-              
-            }}src={img} alt="" />
+          {imagenes.map(imgs => (<div>
+            <img className="carrusel" src={imgs} alt="" />
           </div>) )
           }
           
@@ -51,8 +80,5 @@ const Instagram = () => {
       </div>
     );
   }
-
-
-  
 
   export default Instagram 
