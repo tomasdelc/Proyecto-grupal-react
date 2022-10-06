@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+h2.title{
+    margin-top: 60%;
+    text-align:center;
+    font-size: 60px;
+    line-height: 3rem;
+    font-weight:43.75rem;
+    position: relative;
+    height: auto;
+    width: 10; 
+}
+div.contenedor {
+    position: relative;
+      height: 46.125rem;
+      width: 93.125rem;
+      left: 20%;
+      text-align: center;
+      display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(3, auto);
+          grid-template-areas: 
+          'photoone   phototwo'
+          'photothree  photofour';
+}
+
+
+@media (max-width:1200px){
+    .whomakes {
+        position: relative;
+          height: 26.125rem;
+          width: 73.125rem;
+          left: 22.1875rem;
+          top: 78.5625rem;
+}
+    
+}
+@media (max-width: 992px){
+    .whomakes {
+        position: relative;
+          height: 26.125rem;
+          width: 73.125rem;
+          left: 22.1875rem;
+          top: 78.5625rem;
+}
+}
+@media (max-width:768px){
+    .whomakes {
+        position: relative;
+          height: 26.125rem;
+          width: 73.125rem;
+          left: 22.1875rem;
+          top: 78.5625rem;
+}
+}
+@media only screen and (max-width:576px){
+    
+    h2.title{
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 0.05em;
+        }
+    .contenedor {
+        font-size: 2px;
+        position: relative;
+          height: 70%;
+          width: 150%;
+          display: grid;
+          grid-template-columns:1fr;
+          /*grid-template-rows: repeat(3, auto);*/
+          /*grid-template-areas: 
+          'photoone   phototwo'
+          'photothree  photofour';*/
+          background: red;
+}
+div.contenedor{
+    font-size: 80px;
+}
+}
+
+
+/*@font-face {
+    font-family: squarepeg;
+    src: url(../../fuentes/SquarePeg-Regular.ttf);
+}
+@font-face {
+    font-family: shadows;
+    src: url(../../fuentes/ShadowsIntoLight-Regular.ttf);
+}
+@font-face {
+    font-family: reenie;
+    src: url(../../fuentes/reenie.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+.offers {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0;
+    overflow-x: hidden;
+}
+
+.offers h1.titulo {
+    position: relative;
+    height: auto;
+    width: 10*/
+
+    /**********************************************************/
+
+    /** {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.banner {
+    background: url(../../images/fondo-banner.jpg);
+    height: 90vh;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.75;
+    overflow-x:hidden;
+}
+
+.banner .banner-info {
+    position: relative;
+    top:40%;
+    left: 15%;
+    width: 100%;*/
