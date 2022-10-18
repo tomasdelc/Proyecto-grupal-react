@@ -8,7 +8,6 @@
  .WhyChoose{
     width: auto;
     height: auto;
-<<<<<<< HEAD
     display: flex;
     flex-direction: row-reverse;
     margin: 5%;
@@ -29,36 +28,10 @@
     font-style: normal;
     line-height: 3rem;
     margin: 25px;
-=======
-    max-height: 30em;
-    max-width: 34.375em;
-   /*float: right;
-    position: absolute;*/
- }
-div.principal{
-    position: absolute;
-    height: 40.4375em;
-    width: 73.125em;
-    top: 109.6875em;
-    display: flex;
-    flex-direction: "row-reverse";
-    background-color: aqua;
-}
- h2.titulo{
-    height: 10%;
-    width: 50%;
-    position: absolute;
-    font-size: 30px;
-    font-style: normal;
-    line-height: 2em;
-    margin: 0px;
-    background-color: blue;
->>>>>>> 12a3c7282dc3a929de7d2a9f923847a886e02672
  }
 
  .parrafo {
     font-style:normal;
-<<<<<<< HEAD
     font-size:35px;
     line-height:1.5rem;
  }
@@ -70,20 +43,6 @@ div.principal{
     margin-left: 40%;
 
  }
-=======
-    font-size:20px;
-    line-height:1.5em;
-    margin-top: 3em;
-    background-color: aquamarine;
- }
- 
- Button.boton1{
-    margin-top:23em;
-    margin-left:0.625em;
-    color:black;
-    background-color:#fca607;
- }
->>>>>>> 12a3c7282dc3a929de7d2a9f923847a886e02672
 
 
 
@@ -91,7 +50,6 @@ div.principal{
 /*estilos para smartphone*/
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
-<<<<<<< HEAD
     
     .WhyChoose{
         width: auto;
@@ -137,33 +95,6 @@ div.principal{
         display: flex;
         justify-content: center;
 
-=======
-
-    img.foto{
-        position: absolute;
-        width: 100%;
-        height: 20%;
-        top: 2em;
-     }
-    div.principal{
-        position: absolute;
-        height: 20em;
-        width: 15em;
-        top: 60em;
-        display: flex;
-        flex-direction: "row-reverse";
-        background-color: aqua;
-    }
-     h2.titulo{
-        height: 10%;
-        width: 100%;
-        position: absolute;
-        font-size: 10px;
-        font-style: normal;
-        line-height: 2em;
-        margin: 0px;
-        background-color: blue;
->>>>>>> 12a3c7282dc3a929de7d2a9f923847a886e02672
      }
     
      .parrafo {

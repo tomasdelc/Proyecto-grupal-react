@@ -4,7 +4,6 @@
     margin: 0;
 }
 
-<<<<<<< HEAD
 .tres3{
     font-size:25px;
     line-height:1.25rem;
@@ -12,23 +11,10 @@
 
 .estrella3{
     font-size:25px;
-=======
-p.tres3{
-    position:absolute; 
-    font-size:17px;
-    line-height:1.5em;
-    margin-top:9.375em;
-    margin-left:0.625em;
-}
-
-.estrella3{
-    font-size:30px;
->>>>>>> 12a3c7282dc3a929de7d2a9f923847a886e02672
     color:#570266;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
-<<<<<<< HEAD
     .tres3{
         font-size:20px;
         line-height:1.25rem;
@@ -38,18 +24,4 @@ p.tres3{
         color:#570266;
     }
 
-=======
-    p.tres3{
-        position:absolute; 
-        font-size:10px;
-        line-height:1em;
-        margin-left:0.625em;
-        top: 9em;
-    }
-    
-    .estrella3{
-        font-size:10px;
-        color:#570266;
-    }
->>>>>>> 12a3c7282dc3a929de7d2a9f923847a886e02672
 }
