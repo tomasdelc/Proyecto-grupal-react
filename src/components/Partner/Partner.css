@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+<<<<<<< HEAD
 .Partner{
     display: flex;
     flex-direction: column;
@@ -82,3 +83,95 @@ Button.boton1{
         margin: 0%;
     }
 }
+=======
+ .fotoimg{
+    height: auto;
+    width: auto;
+ }
+img.imagen{
+    position: relative;
+    max-height: 70em;
+    max-width: 60em;
+    margin-top: 45%;
+    opacity:0.7;
+    background-color: red;
+}
+
+h2.socio{
+    position:relative;
+    margin-left:7em;
+    width:50%;
+    height:20%;
+    font-size:4em;
+    bottom: 13em;
+}
+
+.logo{
+    position: relative;
+    margin-left:15em;
+    width:28.75em;
+    bottom: 25em;
+    font-size: 2em;
+}
+
+Button.boton{
+    position:relative;
+    height:3em;
+    width:25em;
+    font-size:1.25em;
+    color:rgb(0, 0, 0);
+    background-color:#fc8805;
+    bottom: 30em;
+    right: 35em; 
+}
+
+
+/*estilos para smartphone*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    
+
+    .fotoimg{
+        height: 100%;
+        width: 100%;
+     }
+     img.imagen{
+        position: relative;
+        max-height: 40em;
+        max-width: 20em;
+        margin-top: 26.5em;
+        opacity:0.7;
+        background-color: red;
+    }
+    
+    h2.socio{
+        position:absolute;
+        width:80%;
+        height:80%;
+        top: 56em;
+        font-size:23px;
+        right: 3em;
+    }
+    
+    .logo{
+        position: relative;
+        margin-left:11em;
+        width:28.75em;
+        bottom: 30em;
+        font-size: 5px;
+    }
+    
+    Button.boton{
+        position:absolute;
+        height:3em;
+        width:25em;
+        font-size:8px;
+        color:rgb(0, 0, 0);
+        background-color:#fc8805;
+        right: 13em;
+        top: 182em; 
+    }
+    
+    
+}
+>>>>>>> 12a3c7282dc3a929de7d2a9f923847a886e02672

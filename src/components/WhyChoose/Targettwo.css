@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+<<<<<<< HEAD
 .dos2{
     font-size:25px;
     line-height:1.25rem;
@@ -11,10 +12,23 @@
 
 .estrella2{
     font-size:25px;
+=======
+p.dos2{
+    position:absolute; 
+    font-size:17px;
+    line-height:1.5em;
+    margin-top:4.5em;
+    margin-left:0.625em;
+}
+
+.estrella2{
+    font-size:30px;
+>>>>>>> 12a3c7282dc3a929de7d2a9f923847a886e02672
     color:#570266;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
+<<<<<<< HEAD
     .dos2{
         font-size:20px;
         line-height:1.25rem;
@@ -24,4 +38,18 @@
         color:#570266;
     }
 
+=======
+    p.dos2{
+        position:absolute; 
+        font-size:10px;
+        line-height:1em;
+        margin-left:0.625em;
+        top: 11em;
+    }
+    
+    .estrella2{
+        font-size:10px;
+        color:#570266;
+    }
+>>>>>>> 12a3c7282dc3a929de7d2a9f923847a886e02672
 }
