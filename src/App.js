@@ -10,7 +10,6 @@ import ShoppingCart from "./components/ShoppingCart";
 import Surprise from "./components/Surprise";
 import Warning from "./components/warning";
 import WhoMakes from "./components/WhoMakes";
-import Partner from "./components/Partner";
 import WhyChoose from "./components/WhyChoose";
 
 function App() {
