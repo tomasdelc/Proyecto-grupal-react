@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.tres3{
+    font-size:25px;
+    line-height:1.25rem;
+}
+
+.estrella3{
+    font-size:25px;
+    color:#570266;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .tres3{
+        font-size:20px;
+        line-height:1.25rem;
+    }
+    .estrella3{
+        font-size:15px;
+        color:#570266;
+    }
+
+}

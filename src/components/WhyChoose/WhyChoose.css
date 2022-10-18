@@ -5,40 +5,44 @@
     margin: 0;
 }
 
- img.foto{
+ .WhyChoose{
     width: auto;
     height: auto;
-    max-height: 30rem;
-    max-width: 34.375rem;
-   /*float: right;
-    position: absolute;*/
- }
-div.principal{
-    position: absolute;
-    height: 30.4375rem;
-    width: 73.125rem;
-    left:22.1875rem;
-    top: 109.6875rem;
     display: flex;
-    flex-direction: "row-reverse";
-}
+    flex-direction: row-reverse;
+    margin: 5%;
+ }
+
+ figure.foto5{
+    width: 40%;
+    height: auto;
+    background-image: url(../../imagenes/vid.jpg);   
+    background-size: cover;
+    background-position: bottom;
+    overflow-x:hidden;
+ }
+
  h2.titulo{
-    position: absolute;
-    font-size: 40px;
-    font-weight:43.75rem;
+    display: flex;
+    font-size: 60px;
     font-style: normal;
     line-height: 3rem;
-    margin: 0px;
+    margin: 25px;
  }
 
  .parrafo {
     font-style:normal;
-    font-weight: 31.25rem;
-    font-size:1.25rem;
+    font-size:35px;
     line-height:1.5rem;
-    margin-top: 3.75rem;
  }
+ 
+ Button.boton2{
+    color:black;
+    background-color:#FF8126;
+    display: flex;
+    margin-left: 40%;
 
+ }
 
 
 
@@ -47,31 +51,50 @@ div.principal{
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
     
-    h2.titulo{
-        font-size: 20px;
-        position: absolute;
-        vertical-align: top;
-
-    }
-    p.parrafo{
-        font-size: 10px;
-        position: absolute;
-        height: 20rem;
-    }
-    img.foto{
-        position: relative;
-        width: 100%;
-        grid-template: auto;
-        display: inline-block;
-    }
-    .figuras {
-        height: 50%;
-        width: 50%;
+    .WhyChoose{
+        width: auto;
+        height: auto;
         display: flex;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-    } 
+        flex-direction: column-reverse;
+     }
+    
+     figure.foto5{
+        height: auto;
+        background-image: url(../../imagenes/vid.jpg);   
+        background-size: cover;
+        background-position: bottom;
+        overflow-x:hidden;
+        height: auto;
+        width: auto;
+     }
+    
+     h2.titulo{
+        display: flex;
+        font-size: 30px;
+        font-style: normal;
+        line-height: 3rem;
+        height: auto;
+        width: auto;
+     }
+    
+     .parrafo {
+        font-style:normal;
+        font-size:25px;
+        line-height:1.5rem;
+        height: auto;
+        width: auto;
+     }
+     
+     Button.boton2{
+        color:black;
+        background-color:#FF8126;
+        height: auto;
+        width: auto;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        justify-content: center;
 
- 
+     }
     
 }

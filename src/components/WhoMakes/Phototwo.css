@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.Photo2{
+    height:auto;
+    width:auto;
+    margin:1rem;
+}
+
+.casa{
+    font-size:25px;
+    font-style:normal;
+    font-weight:43.75rem;
+    line-height:1.5625rem;
+    margin:0rem;
+
+}
+
+.texto2{
+    font-size:16px;
+    font-style:normal;
+    line-height:1.5rem;
+    color:#1F1F1F;
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+    .Photo2{
+        height:auto;
+        width:auto;
+        margin:1rem;
+    }
+    
+    .casa{
+        font-size:20px;
+        font-style:normal;
+        margin:0rem;
+    }
+    
+    .texto2{
+        font-size:15px;
+        font-style:normal;
+        line-height:1.5rem;
+        color:#1F1F1F;
+    }
+}
