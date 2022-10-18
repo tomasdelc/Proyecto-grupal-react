@@ -11,7 +11,7 @@ const Partner = () => {
    <img src={evento} alt="evento" className='logo'/>   
     <div>
       <Button 
-     className='boton1' variant="contained" color="success" size="large" fullWidth
+     className='boton1' variant="contained" size="large" fullWidth
      >Más información sobre Events
      </Button>
      </div>
