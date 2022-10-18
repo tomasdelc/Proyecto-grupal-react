@@ -21,12 +21,7 @@ const WhyChoose = () => {
         <Targetthree/>
         <Targetfour/>
         <Targetfive/>
-        <Button className='boton' variant="contained" style={{
-          marginTop:"310px",
-          marginLeft:"10px",
-          color:"black",
-          backgroundColor:"#FF8126"
-        }}>Descubre nuestros productos</Button>
+        <Button className='boton1' variant="contained">Descubre nuestros productos</Button>
       </figcaption>
     </div>
   )
