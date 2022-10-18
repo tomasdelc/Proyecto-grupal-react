@@ -11,10 +11,10 @@ const Surprise = () => {
 <h2 className='sub-title'>SORPRENDE A UN AMIGO Y ENVÍALE UNO DE NUESTROS PRODUCTOS</h2>
     <p>
     Conoces a alguien que trabaja mucho desde casa? Nuestra caja personalizada es el mejor regalo. <br /><br />
-    Cuenta con 3 vinos a eleccion para que puedan disfrutar entre amigos y colegas.
+    Cuenta con 3 vinos a elección para que puedan disfrutar entre amigos y colegas.
     <br /><br /> Pedinos el tuyo, clickeando en el boton de aqui abajo.</p>  
       <div className='btn'>
-      <Button clasName="button" variant="outlined" >Compra Aquí</Button>
+      <Button clasName="button" variant="outlined" >Comprar Aquí</Button>
       </div>
       </div>
       
