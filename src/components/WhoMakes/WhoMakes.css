@@ -18,20 +18,15 @@ h2.title{
 }
 div.contenedor {
     position: relative;
-      height: 46.125rem;
-      width: 93.125rem;
-      left: 20%;
+      height: 70%;
+      width: 70%;
+      left: 15%;
       text-align: center;
-      display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          grid-template-rows: repeat(3, auto);
-          grid-template-areas: 
-          'photoone   phototwo'
-          'photothree  photofour';
+      display: flex;
 }
 
 
-@media (max-width:1200px){
+/*@media (max-width:1200px){
     .whomakes {
         position: relative;
           height: 26.125rem;
@@ -58,29 +53,20 @@ div.contenedor {
           left: 22.1875rem;
           top: 78.5625rem;
 }
-}
-@media only screen and (max-width:576px){
+}*/
+@media only screen and (min-width: 320px) and (max-width: 767px){
     
     h2.title{
-            font-size: 20px;
+            font-size: 10px;
             text-align: center;
             letter-spacing: 0.05em;
         }
     .contenedor {
-        font-size: 2px;
+        font-size: 10px;
         position: relative;
-          height: 70%;
-          width: 150%;
-          display: grid;
-          grid-template-columns:1fr;
-          /*grid-template-rows: repeat(3, auto);*/
-          /*grid-template-areas: 
-          'photoone   phototwo'
-          'photothree  photofour';*/
-          background: red;
-}
-div.contenedor{
-    font-size: 80px;
+          height: 100%;
+          width: 100%;
+          background:  red;
 }
 }
 
