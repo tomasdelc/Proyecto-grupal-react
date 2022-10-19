@@ -8,37 +8,45 @@
  img.foto{
     width: auto;
     height: auto;
-    max-height: 30rem;
-    max-width: 34.375rem;
+    max-height: 30em;
+    max-width: 34.375em;
    /*float: right;
     position: absolute;*/
  }
 div.principal{
     position: absolute;
-    height: 30.4375rem;
-    width: 73.125rem;
-    left:22.1875rem;
-    top: 109.6875rem;
+    height: 40.4375em;
+    width: 73.125em;
+    top: 109.6875em;
     display: flex;
     flex-direction: "row-reverse";
+    background-color: aqua;
 }
  h2.titulo{
+    height: 10%;
+    width: 50%;
     position: absolute;
-    font-size: 40px;
-    font-weight:43.75rem;
+    font-size: 30px;
     font-style: normal;
-    line-height: 3rem;
+    line-height: 2em;
     margin: 0px;
+    background-color: blue;
  }
 
  .parrafo {
     font-style:normal;
-    font-weight: 31.25rem;
-    font-size:1.25rem;
-    line-height:1.5rem;
-    margin-top: 3.75rem;
+    font-size:20px;
+    line-height:1.5em;
+    margin-top: 3em;
+    background-color: aquamarine;
  }
-
+ 
+ Button.boton1{
+    margin-top:23em;
+    margin-left:0.625em;
+    color:black;
+    background-color:#fca607;
+ }
 
 
 
@@ -46,32 +54,49 @@ div.principal{
 /*estilos para smartphone*/
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
-    
-    h2.titulo{
-        font-size: 20px;
-        position: absolute;
-        vertical-align: top;
 
-    }
-    p.parrafo{
-        font-size: 10px;
-        position: absolute;
-        height: 20rem;
-    }
     img.foto{
-        position: relative;
+        position: absolute;
         width: 100%;
-        grid-template: auto;
-        display: inline-block;
-    }
-    .figuras {
-        height: 50%;
-        width: 50%;
+        height: 20%;
+        top: 2em;
+     }
+    div.principal{
+        position: absolute;
+        height: 20em;
+        width: 15em;
+        top: 60em;
         display: flex;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-    } 
-
- 
+        flex-direction: "row-reverse";
+        background-color: aqua;
+    }
+     h2.titulo{
+        height: 10%;
+        width: 100%;
+        position: absolute;
+        font-size: 10px;
+        font-style: normal;
+        line-height: 2em;
+        margin: 0px;
+        background-color: blue;
+     }
     
+     .parrafo {
+        font-size:10px;
+        line-height:1.5em;
+        margin-top: 9.5em;
+        width: 100%;
+        height: 10%;
+        background-color: aquamarine;
+     }
+     
+     Button.boton1{
+        width: 80%;
+        height: 5%;
+        font-size: 5px;
+        margin-top:28em;
+        margin-left:5em;
+        color:black;
+        background-color:#fca607;
+     }
 }
