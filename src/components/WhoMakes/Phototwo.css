@@ -13,8 +13,7 @@
 .casa{
     font-size:25px;
     font-style:normal;
-    font-weight:43.75rem;
-    line-height:1.5625rem;
+    font-family: rennie;
     margin:0rem;
 
 }
@@ -22,6 +21,7 @@
 .texto2{
     font-size:16px;
     font-style:normal;
+    font-family: rennie;
     line-height:1.5rem;
     color:#1F1F1F;
 
@@ -38,6 +38,7 @@
     .casa{
         font-size:20px;
         font-style:normal;
+        font-family: rennie;
         margin:0rem;
     }
     
@@ -45,6 +46,56 @@
         font-size:15px;
         font-style:normal;
         line-height:1.5rem;
+        font-family: rennie;
+        color:#1F1F1F;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 940px){
+    .Photo2{
+        height:auto;
+        width:auto;
+        margin:0.5rem;
+    }
+    
+    .casa{
+        font-size:25px;
+        font-style:normal;
+        font-family: rennie;
+        margin:1rem;
+        line-height: 1.5rem;
+    }
+    
+    .texto2{
+        font-size:17px;
+        font-style:normal;
+        line-height:1.2rem;
+        font-family: rennie;
+        color:#1F1F1F;
+        padding: 2%;
+    }
+}
+
+@media only screen and (min-width: 941px) and (max-width: 1210px){
+    .Photo2{
+        height:auto;
+        width:auto;
+        margin:0rem;
+    }
+    
+    .casa{
+        font-size:25px;
+        font-style:normal;
+        font-family: rennie;
+        line-height: 1.5rem;
+        margin: 2%;
+    }
+    
+    .texto2{
+        font-size:18px;
+        font-style:normal;
+        line-height:1.3rem;
+        font-family: rennie;
         color:#1F1F1F;
     }
 }

@@ -25,7 +25,9 @@
  h2.titulo{
     display: flex;
     font-size: 60px;
+    color: #592851;
     font-style: normal;
+    font-family: rennie;
     line-height: 3rem;
     margin: 25px;
  }
@@ -33,14 +35,16 @@
  .parrafo {
     font-style:normal;
     font-size:35px;
-    line-height:1.5rem;
+    line-height:2rem;
+    font-family: rennie;
  }
  
  Button.boton2{
-    color:black;
-    background-color:#FF8126;
+    color:white;
+   background-color: #592851;
     display: flex;
     margin-left: 40%;
+    font-family: rennie;
 
  }
 
@@ -72,6 +76,8 @@
         display: flex;
         font-size: 30px;
         font-style: normal;
+        color: #592851;
+        font-family: rennie;
         line-height: 3rem;
         height: auto;
         width: auto;
@@ -79,40 +85,108 @@
     
      .parrafo {
         font-style:normal;
-        font-size:25px;
-        line-height:1.5rem;
+        font-size:24px;
+        line-height:1.7rem;
+        font-family: rennie;
         height: auto;
         width: auto;
      }
      
      Button.boton2{
-        color:black;
-        background-color:#FF8126;
+      color:white;
+      background-color: #592851;
         height: auto;
+        font-family: rennie;
         width: auto;
         margin: 0%;
         padding: 0%;
-        display: flex;
-        justify-content: center;
 
      }
-    
-     .parrafo {
-        font-size:10px;
-        line-height:1.5em;
-        margin-top: 9.5em;
-        width: 100%;
-        height: 10%;
-        background-color: aquamarine;
-     }
-     
-     Button.boton1{
-        width: 80%;
-        height: 5%;
-        font-size: 5px;
-        margin-top:28em;
-        margin-left:5em;
-        color:black;
-        background-color:#fca607;
-     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 940px){
+   .WhyChoose{
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 5%;
+   }
+  
+   figure.foto5{
+      width: auto;
+      height: auto;
+      background-image: url(../../imagenes/vid.jpg);   
+   }
+  
+   h2.titulo{
+      display: flex;
+      font-size: 60px;
+      font-style: normal;
+      color: #592851;
+      font-family: rennie;
+      line-height: 3rem;
+      margin: 25px;
+   }
+  
+   .parrafo {
+      font-style:normal;
+      font-size:35px;
+      font-family: rennie;
+      line-height:2rem;
+   }
+   
+   Button.boton2{
+      color:white;
+      background-color: #592851;
+      display: flex;
+      margin-left: 35%;
+      font-family: rennie;
+  
+   }
+}
+
+@media only screen and (min-width: 941px) and (max-width: 1210px){
+   .WhyChoose{
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 5%;
+   }
+  
+   figure.foto5{
+      width: 40%;
+      height: auto;
+      background-image: url(../../imagenes/vid.jpg);   
+      background-size: cover;
+      background-position: bottom;
+      overflow-x:hidden;
+   }
+  
+   h2.titulo{
+      display: flex;
+      font-size: 60px;
+      font-family: rennie;
+      color: #592851;
+      font-style: normal;
+      line-height: 3rem;
+      margin: 25px;
+   }
+  
+   .parrafo {
+      font-style:normal;
+      font-size:35px;
+      font-family: rennie;
+      line-height:2rem;
+   }
+   
+   Button.boton2{
+      color:white;
+      background-color: #592851;
+      display: flex;
+      margin-left: 40%;
+      font-family: rennie;
+  
+   }
 }

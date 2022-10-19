@@ -13,7 +13,7 @@ const WhyChoose = () => {
     <div className="WhyChoose">
       <figure className='foto5'></figure>
       <figcaption className='figuras'>
-        <h2 className='titulo'><span style={{color:"#FF8126"}}>Quien hace</span> tu Vino?</h2>
+        <h2 className='titulo'>Quien hace tu Vino?</h2>
         <p className='parrafo'>Nuestra misión es colaborar con el crecimiento de la vitivinicultura en todo el territorio nacional ¿Por qué?</p>
         <div className='targetas'>
        <Targetone/>

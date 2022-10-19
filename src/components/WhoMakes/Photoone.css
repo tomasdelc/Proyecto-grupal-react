@@ -13,11 +13,13 @@
 .telescopio{
     font-size:25px;
     font-style:normal;
+    font-family: rennie;
     margin:0rem;
 }
 
 .texto1{
     font-size:16px;
+    font-family: rennie;
     font-style:normal;
     line-height:1.5rem;
     color:#1F1F1F;
@@ -35,6 +37,7 @@
     .telescopio{
         font-size:20px;
         font-style:normal;
+        font-family: rennie;
         margin:0rem;
     }
     
@@ -42,6 +45,55 @@
         font-size:15px;
         font-style:normal;
         line-height:1.5rem;
+        font-family: rennie;
+        color:#1F1F1F;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 940px){
+    .Photo1{
+        height:auto;
+        width:auto;
+        margin:0.5rem;
+    }
+    
+    .telescopio{
+        font-size:25px;
+        font-style:normal;
+        font-family: rennie;
+        margin:1rem;
+        line-height: 1.5rem;
+    }
+    
+    .texto1{
+        font-size:17px;
+        font-style:normal;
+        line-height:1.2rem;
+        color:#1F1F1F;
+        font-family: rennie;
+        padding: 2%;
+    }
+}
+@media only screen and (min-width: 941px) and (max-width: 1210px){
+    .Photo1{
+        height:auto;
+        width:auto;
+        margin:0rem;
+    }
+    
+    .telescopio{
+        font-size:25px;
+        font-style:normal;
+        line-height: 1.5rem;
+        font-family: rennie;
+        margin: 2%;
+    }
+    
+    .texto1{
+        font-size:18px;
+        font-style:normal;
+        line-height:1.3rem;
+        font-family: rennie;
         color:#1F1F1F;
     }
 }
