@@ -1,74 +1,116 @@
 
+@font-face {
+    font-family: shadows;
+    src: url(../../fuentes/ShadowsIntoLight-Regular.ttf);
+}
+@font-face {
+    font-family: reenie;
+    src: url(../../fuentes/reenie.ttf);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+.whomakes{
+    height: auto;
+    width: auto;
+    display: flex;
+}
 
 h2.title{
-    margin-top: 60%;
     text-align:center;
+    color: #592851;
+    font-family: rennie;
     font-size: 60px;
     line-height: 3rem;
-    font-weight:43.75rem;
-    position: relative;
     height: auto;
-    width: 10; 
+    margin: 5%;
 }
 div.contenedor {
-    position: relative;
-      height: 70%;
-      width: 70%;
-      left: 15%;
+      height: auto;
+      width: auto;
       text-align: center;
       display: flex;
+      justify-content: space-between;
+      margin: 5%;
 }
 
 
-/*@media (max-width:1200px){
-    .whomakes {
-        position: relative;
-          height: 26.125rem;
-          width: 73.125rem;
-          left: 22.1875rem;
-          top: 78.5625rem;
-}
-    
-}
-@media (max-width: 992px){
-    .whomakes {
-        position: relative;
-          height: 26.125rem;
-          width: 73.125rem;
-          left: 22.1875rem;
-          top: 78.5625rem;
-}
-}
-@media (max-width:768px){
-    .whomakes {
-        position: relative;
-          height: 26.125rem;
-          width: 73.125rem;
-          left: 22.1875rem;
-          top: 78.5625rem;
-}
-}*/
 @media only screen and (min-width: 320px) and (max-width: 767px){
+    .whomakes{
+        height: auto;
+        width: auto;
+        display: flex;
+    }
     
     h2.title{
-            font-size: 10px;
-            text-align: center;
-            letter-spacing: 0.05em;
-        }
-    .contenedor {
+        font-size: 25px;
+        height: auto;
+        width: auto;
+    }
+    div.contenedor {
+        height: auto;
+        width: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 2%;
         font-size: 10px;
-        position: relative;
-          height: 100%;
-          width: 100%;
-          background:  red;
+    }
+
 }
+
+@media only screen and (min-width: 768px) and (max-width: 940px){
+    .whomakes{
+        height: auto;
+        width: auto;
+        display: flex;
+    }
+    
+    h2.title{
+        text-align:center;
+        font-size: 60px;
+        line-height: 3rem;
+        height: auto;
+        margin: 5%;
+    }
+    div.contenedor {
+          height: auto;
+          width: auto;
+          text-align: center;
+          display: flex;
+          justify-content: space-between;
+          margin: 5%;
+    }
 }
+
+@media only screen and (min-width: 941px) and (max-width: 1210px){
+    .whomakes{
+        height: auto;
+        width: auto;
+        display: flex;
+    }
+    
+    h2.title{
+        text-align:center;
+        font-size: 60px;
+        line-height: 3rem;
+        height: auto;
+        margin: 5%;
+    }
+    div.contenedor {
+          height: auto;
+          width: auto;
+          text-align: center;
+          display: flex;
+          justify-content: space-between;
+          margin: 5%;
+    }
+}
+
 
 
 /*@font-face {

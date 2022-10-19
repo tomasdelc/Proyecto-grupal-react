@@ -1,5 +1,5 @@
 
-import '../WhyChoose/Targetfour.css'
+import '../WhyChoose/Targetfour.css';
 import { FiStar } from "react-icons/fi" ;
 
 const Targetfour = () => {

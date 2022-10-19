@@ -8,6 +8,10 @@ h2{
     justify-content: center;
     text-align: center;
     margin-top: 1rem;
+    
+}
+p{
+    margin-right: 3%;
 }
 
 /* estilos para pc */
@@ -23,7 +27,7 @@ h2{
     
     width: 570px;
     height: 432px;
-    margin-left: 8%;
+    margin-left: 1%;
     margin-bottom: 1rem;
     padding: 5px;
     float: left;
@@ -43,6 +47,7 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     padding-top: 1rem;
     padding-left: 3rem;
+    margin-right: 2%;
     
     
 }
@@ -94,7 +99,7 @@ h2{
     
 }
 .container-all p{
-    font-size: 20px;
+    font-size: 1.25rem;
     padding-left: 3rem;
     display: flex;
     text-align: center;
@@ -121,7 +126,7 @@ h2{
    
 }
 .btn {
-    font-size: 15px;
+    font-size: 0.9375rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-weight: bold;
@@ -139,7 +144,7 @@ h2{
     
 }
 .container-all p{
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
     text-align: center;
 }

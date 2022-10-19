@@ -4,94 +4,96 @@
     margin: 0;
 }
 
-
-figure{
-    height:50%;
-    width:50%;
-    position:relative;
-    margin:0rem;
-    display:block;
-    top: 2em;
-}
-
-p.uno{
-    width: 100%;
-    height: 100%;
-    font-size:25px;
-    margin-top: 0.9em;
-    display: flex;
-    justify-content: center;
-    position:relative;
-    top: 2em;
-    font-style:normal;
-    line-height:0.8em;
-    margin:0rem;
-    font-family:Cormorant Garamond , serif;
-}
-
-p.dos{
-    width: 100%;
-    height: 100%;
-    position:relative;
-    top: 4em;
-    font-size:15;
-    font-style:normal;
-    line-height:1.5rem;
-    color:#1F1F1F;
-    margin: 0%;
-    padding: 0%;
-    font-family: Noto Sans Balinese sans-serif;
+.Photo1{
+    height:auto;
+    width:auto;
+    margin:1rem;
 }
 
 .telescopio{
-    position: absolute;
-    left: 6rem;
+    font-size:25px;
+    font-style:normal;
+    font-family: rennie;
+    margin:0rem;
 }
 
+.texto1{
+    font-size:16px;
+    font-family: rennie;
+    font-style:normal;
+    line-height:1.5rem;
+    color:#1F1F1F;
+}
+
+
 @media only screen and (min-width: 320px) and (max-width: 767px){
-    
-    figure{
-        height:20%;
-        width:20%;
-        position:absolute;
-        margin:0rem;
-        display:block;
-        top: 2em;
-    }
-    
-    p.uno{
-        width: 100%;
-        height: 100%;
-        font-size:20px;
-        margin-top: 0.9em;
-        display: flex;
-        justify-content: center;
-        position:relative;
-        top: 3em;
-        font-style:normal;
-        line-height:0.8em;
-        margin:0rem;
-        font-family:Cormorant Garamond , serif;
-    }
-    
-    p.dos{
-        width: 100%;
-        height: 100%;
-        position:relative;
-        top: 6em;
-        font-size:10px;
-        font-style:normal;
-        line-height:1.5rem;
-        color:#1F1F1F;
-        margin: 0%;
-        padding: 0%;
-        font-family: Noto Sans Balinese sans-serif;
+
+    .Photo1{
+        height:auto;
+        width:auto;
+        margin:1rem;
     }
     
     .telescopio{
-        height: 10%;
-        width: 10%;
-        position: absolute;
-        left: 1rem;
+        font-size:20px;
+        font-style:normal;
+        font-family: rennie;
+        margin:0rem;
+    }
+    
+    .texto1{
+        font-size:15px;
+        font-style:normal;
+        line-height:1.5rem;
+        font-family: rennie;
+        color:#1F1F1F;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 940px){
+    .Photo1{
+        height:auto;
+        width:auto;
+        margin:0.5rem;
+    }
+    
+    .telescopio{
+        font-size:25px;
+        font-style:normal;
+        font-family: rennie;
+        margin:1rem;
+        line-height: 1.5rem;
+    }
+    
+    .texto1{
+        font-size:17px;
+        font-style:normal;
+        line-height:1.2rem;
+        color:#1F1F1F;
+        font-family: rennie;
+        padding: 2%;
+    }
+}
+@media only screen and (min-width: 941px) and (max-width: 1210px){
+    .Photo1{
+        height:auto;
+        width:auto;
+        margin:0rem;
+    }
+    
+    .telescopio{
+        font-size:25px;
+        font-style:normal;
+        line-height: 1.5rem;
+        font-family: rennie;
+        margin: 2%;
+    }
+    
+    .texto1{
+        font-size:18px;
+        font-style:normal;
+        line-height:1.3rem;
+        font-family: rennie;
+        color:#1F1F1F;
     }
 }
