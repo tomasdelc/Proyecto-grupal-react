@@ -18,7 +18,7 @@ const Warning = () => {
   
   if (visible) {
   return (
-    <div style={estiloWarning}>Free Delinery Over $ 10.000. Free gift for purchase over $ 20.000 <button  style={estiloCerrar} onClick={() => setVisible(false)}>X</button></div>)}
+    <div style={estiloWarning}>Free Delinery Over $ 10.000. Free gift for purchgitase over $ 20.000 <button  style={estiloCerrar} onClick={() => setVisible(false)}>X</button></div>)}
   }
 
 export default Warning
