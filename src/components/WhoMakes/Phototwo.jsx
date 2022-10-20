@@ -1,19 +1,16 @@
-
-import '../WhoMakes/Phototwo.css';
-import casa from "../../imagenes/casa.jpg"
+import '../WhoMakes/Phototwo.css'
+import { MdOutlineCottage} from 'react-icons/md' ;
 
 
 const Phototwo = () => {
   return (
-    <figure>
-      <div className='casa'>
-        <img src={casa} alt="casa" />
-      </div>
+    <figure className='Photo2'>
+        < MdOutlineCottage size={"4rem"} / > 
         <div>
-            <p className='tres'>Comprar  <br></br> al por mayor</p>
+          <p className='casa'>Comprar  <br></br> al por mayor</p>
         </div>
         <div >
-            <p className='cuatro'>Ofrecemos formatos a granel, estuches variados y cajas de descubrimiento para que pueda ahorrar dinero en alimentos deliciosos comprando a precios de mayorista.</p>
+            <p className='texto2'>Ofrecemos formatos a granel, estuches variados y cajas de descubrimiento para que pueda ahorrar dinero en alimentos deliciosos comprando a precios de mayorista.</p>
         </div>
       </figure>
   )

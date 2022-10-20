@@ -1,18 +1,16 @@
 
 import '../WhoMakes/Photothree.css'
-import manos from "../../imagenes/manos.jpg"
+import { MdOutlineThumbsUpDown } from "react-icons/md" ;  
 
 const Photothree = () => {
   return (
-    <figure>
-        <div className='manos'>
-            <img src={manos} alt="manos" />
-        </div>
+    <figure className="Photo3">
+        < MdOutlineThumbsUpDown size={"4rem"} / > 
         <div>
-          <p className="cinco">Apoya a tu  <br></br> comunidad</p>
+          <p className="manos">Apoya a tu  <br></br> comunidad</p>
         </div>
         <div >
-            <p className="seis">Al comprar al por mayor a productores locales y nacionale, está ayudando a hacer crecer nuestro ecosistema alimentario local, creando empleos y apoyando a familias y empresarios en su comunidad.</p>
+            <p className="texto3">Al comprar al por mayor a productores locales y nacionale, está ayudando a hacer crecer nuestro ecosistema alimentario local, creando empleos y apoyando a familias y empresarios en su comunidad.</p>
         </div>
       </figure>
   )

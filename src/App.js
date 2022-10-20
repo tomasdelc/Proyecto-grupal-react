@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 import Banner from "./components/Banner";
 import Foot from "./components/Foot";
 import Friend from "./components/Friend";
@@ -11,15 +12,17 @@ import Surprise from "./components/Surprise";
 import Warning from "./components/warning";
 import WhoMakes from "./components/WhoMakes";
 import WhyChoose from "./components/WhyChoose";
+import {useState} from "react";
 
 function App() {
+  const [cart, setCart] = useState(0)
   return (
-    <>
-      <ShoppingCart />
+    <> 
+    
       <Warning />
-      <Head />
+      <Head cart={cart} />
       <Banner />
-      <LastOffers />
+      <LastOffers cart={cart} setCart={setCart}/>
       <WhyChoose />
       <WhoMakes />
       <Partner />

@@ -3,93 +3,86 @@
     padding: 0;
     margin: 0;
 }
- .fotoimg{
-    height: auto;
-    width: auto;
- }
-img.imagen{
-    position: relative;
-    max-height: 70em;
-    max-width: 60em;
-    margin-top: 45%;
-    opacity:0.7;
-    background-color: red;
+
+.Partner{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.75;
+    overflow-x:hidden;
+    background-image: url(../../imagenes/cata.jpg);
 }
 
-h2.socio{
-    position:relative;
-    margin-left:7em;
-    width:50%;
-    height:20%;
-    font-size:4em;
-    bottom: 13em;
+h2.titulo1{
+    width:100%;
+    height:25%;
+    font-size: 60px;
+    padding: 1em;
+    opacity: 1;
+    color: white;
 }
 
 .logo{
-    position: relative;
-    margin-left:15em;
-    width:28.75em;
-    bottom: 25em;
-    font-size: 2em;
+    object-fit: contain;
+    width:100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
-Button.boton{
-    position:relative;
-    height:3em;
-    width:25em;
-    font-size:1.25em;
-    color:rgb(0, 0, 0);
-    background-color:#fc8805;
-    bottom: 30em;
-    right: 35em; 
+Button.boton1{
+    color:black;
+    background-color:#3403f5;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 5%;
+    display: flex;
+    margin-left: 40%;
+    font-size: 25px;
 }
-
-
-/*estilos para smartphone*/
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
-    
-
-    .fotoimg{
-        height: 100%;
+    .Partner{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
         width: 100%;
-     }
-     img.imagen{
-        position: relative;
-        max-height: 40em;
-        max-width: 20em;
-        margin-top: 26.5em;
-        opacity:0.7;
-        background-color: red;
+        max-width: 100%;
+        background-size: cover;
+        background-position: bottom;
+        opacity: 0.75;
+        overflow-x:hidden;
+        background-image: url(../../imagenes/cata.jpg);
     }
     
-    h2.socio{
-        position:absolute;
-        width:80%;
-        height:80%;
-        top: 56em;
-        font-size:23px;
-        right: 3em;
+    h2.titulo1{
+        width:100%;
+        height:25%;
+        font-size: 40px;
+        padding: 1em;
+        opacity: 1;
+        color: black;
     }
     
     .logo{
-        position: relative;
-        margin-left:11em;
-        width:28.75em;
-        bottom: 30em;
-        font-size: 5px;
+        object-fit: contain;
+        width:100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
     
-    Button.boton{
-        position:absolute;
-        height:3em;
-        width:25em;
-        font-size:8px;
-        color:rgb(0, 0, 0);
-        background-color:#fc8805;
-        right: 13em;
-        top: 182em; 
+    Button.boton1{
+        height: 100%;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
     }
-    
-    
 }

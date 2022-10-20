@@ -6,22 +6,25 @@ import Targetfour from "./Targetfour"
 import Targetone from "./Targetone"
 import Targetthree from "./Targetthree"
 import Targettwo from "./Targettwo"
-import vid from "../../imagenes/vid.jpg"
 
 
 const WhyChoose = () => {
   return (
-    <div className="principal">
-      <img className='foto' src={vid} alt="vid"/>
+    <div className="WhyChoose">
+      <figure className='foto5'></figure>
       <figcaption className='figuras'>
-        <h2 className='titulo'><span style={{color:"#FF8126"}}>Quien hace</span> tu comida?</h2>
-        <p className='parrafo'>Nuestra misión es ayudar a hacer crecer el ecosistema alimentario local en todo el territorio Nacional. ¿Por qué?</p>
+        <h2 className='titulo'><span style={{color:"#FF8126"}}>Quien hace</span> tu Vino?</h2>
+        <p className='parrafo'>Nuestra misión es colaborar con el crecimiento de la vitivinicultura en todo el territorio nacional ¿Por qué?</p>
+        <div className='targetas'>
        <Targetone/>
        <Targettwo/>
         <Targetthree/>
         <Targetfour/>
         <Targetfive/>
-        <Button className='boton1' variant="contained">Descubre nuestros productos</Button>
+        </div>
+        <div>
+        <Button className='boton2' variant="contained">Descubre nuestros productos</Button>
+        </div>
       </figcaption>
     </div>
   )

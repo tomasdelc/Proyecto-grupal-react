@@ -4,30 +4,24 @@
     margin: 0;
 }
 
-p.dos2{
-    position:absolute; 
-    font-size:17px;
-    line-height:1.5em;
-    margin-top:4.5em;
-    margin-left:0.625em;
+.dos2{
+    font-size:25px;
+    line-height:1.25rem;
 }
 
 .estrella2{
-    font-size:30px;
+    font-size:25px;
     color:#570266;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px){
-    p.dos2{
-        position:absolute; 
-        font-size:10px;
-        line-height:1em;
-        margin-left:0.625em;
-        top: 11em;
+    .dos2{
+        font-size:20px;
+        line-height:1.25rem;
     }
-    
     .estrella2{
-        font-size:10px;
+        font-size:15px;
         color:#570266;
     }
+
 }
