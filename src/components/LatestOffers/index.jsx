@@ -12,7 +12,7 @@ import logo from '../../images/logo.jpg'
 import Button from '@mui/material/Button'
 import Swal from 'sweetalert2'
  
-const LastOffers = () => {
+const LastOffers = ({cart,setCart}) => {
   const openModal = () => {
     //el codigo del sweetalert
     Swal.fire({
@@ -48,7 +48,7 @@ const LastOffers = () => {
           <img src={item.imagen} alt="" />
           <ul><li><del>{item.precioviejo}</del></li>
           <li><big>{item.precionuevo}</big></li></ul>
-        <Button className="boton" variant="text"  onClick={()=> openModal()}>Agregar al carrito</Button>
+        <Button className="boton" variant="text"  onClick={()=> setCart(cart+1)}>Agregar al carrito</Button>
         </div>)}
       </div>
 
@@ -58,7 +58,7 @@ const LastOffers = () => {
        {productos2.map((item)=><div className="card">
          <h4>{item.nombre}</h4>
           <img src={item.imagen} alt="" />
-          <Button className="boton" onClick={()=> openModal()}>Agregar al carrito</Button> 
+          <Button className="boton" onClick={()=> setCart(cart+1)}>Agregar al carrito</Button> 
         </div>)}
       
       </div>
